@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hỗ trợ học Tiếng Anh</string>
+    <string name="phienban">Phiên bản: 1.0</string>
+    <string name="tratudien">Tra Từ Điển</string>
+    <string name="kiemtra">Kiểm Tra</string>
+    <string name="ghichu">Ghi Chú</string>
+    <string name="nguphap">Ngữ Pháp</string>
+    <string name="lichsu">Lịch Sử</string>
+    <string name="truyen">Truyện</string>
+    <string name="tintuc">Tin Tức</string>
+    <string name="caidat">Cài Đặt</string>
+    <string name="gioithieumain">Giới Thiệu</string>
+    <string name="capnhat">Cập nhật thành công</string>
+    <string name="thongbao">Thông báo</string>
+    <string name="tenghichudatontai">Tên ghi chú đã tồn tại</string>
+    <string name="bandahoanthanhbaithi">Bạn đã hoàn thành bài thi!</string>
+    <string name="dongy">Đồng ý</string>
+    <string name="huybo">Hủy bỏ</string>
+    <string name="ketqua">Kết quả</string>
+    <string name="diem">"Điểm: "</string>
+    <string name="thoigian">"Thời gian: "</string>
+    <string name="xemlai">Xem lại</string>
+    <string name="thoat">Thoát</string>
+    <string name="dathem">Đã thêm</string>
+    <string name="dangdoc">Đang đọc</string>
+    <string name="xoathanhcong">Xóa thành công</string>
+    <string name="tieude">Tiêu đề:</string>
+    <string name="tieudenho">Tiêu đề</string>
+    <string name="ghichunho">Ghi chú:</string>
+    <string name="cauhoi">Câu hỏi</string>
+    <string name="nhaptudetracuu">Nhập từ để tra cứu...</string>
+    <string name="xoalichsutratu">Xóa lịch sử tra từ</string>
+    <string name="xoalichsubaikiemtra">Xóa lịch sử bài kiểm tra</string>
+    <string name="khangdinh">1.Câu khẳng định:</string>
+    <string name="phudinh">2.Câu phủ định:</string>
+    <string name="nghivan">3.Câu nghi vấn:</string>
+    <string name="cachdung">4.Cách dùng:</string>
+    <string name="chuy">5.Chú ý:</string>
+    <string name="gioithieu">Ứng dụng được phát triển dành cho cộng đồng yêu thích tiếng Anh!</string>
+    <string name="ketthuc">"Phát triển bởi:  <b> Nguyễn Thị Thu Thủy </b> "</string>
+    <string-array name="main">
+        <item>Tra từ điển</item>
+        <item>Kiểm tra</item>
+        <item>Ghi chú</item>
+        <item>Ngữ pháp</item>
+        <item>Lịch sử</item>
+        <item>Truyện</item>
+        <item>Tin tức</item>
+        <item>Cài đặt</item>
+        <item>Giới thiệu</item>
+    </string-array>
+</resources>

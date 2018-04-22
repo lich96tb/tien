@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Support for learning English</string>
+    <string name="phienban">Version: 1.0</string>
+    <string name="tratudien">Search</string>
+    <string name="kiemtra">Test</string>
+    <string name="ghichu">Note</string>
+    <string name="nguphap">Grammar</string>
+    <string name="lichsu">History</string>
+    <string name="truyen">Story</string>
+    <string name="tintuc">News</string>
+    <string name="caidat">Setting</string>
+    <string name="gioithieumain">Introduce</string>
+    <string name="capnhat">Update successful</string>
+    <string name="thongbao">Notifications</string>
+    <string name="tenghichudatontai">Note already exists</string>
+    <string name="bandahoanthanhbaithi">You have completed the test!</string>
+    <string name="dongy">Ok</string>
+    <string name="huybo">Cancel</string>
+    <string name="ketqua">Result</string>
+    <string name="diem">Marks: </string>
+    <string name="thoigian">Time: </string>
+    <string name="xemlai">Review</string>
+    <string name="thoat">Exit</string>
+    <string name="dathem">Added</string>
+    <string name="dangdoc">Reading</string>
+    <string name="xoathanhcong">Delete successfully</string>
+    <string name="tieude">Title:</string>
+    <string name="tieudenho">Title</string>
+    <string name="ghichunho">Note:</string>
+    <string name="cauhoi">Question</string>
+    <string name="nhaptudetracuu">Enter the word to look up...</string>
+    <string name="xoalichsutratu">Delete all the word search history</string>
+    <string name="xoalichsubaikiemtra">Delete all the exam history</string>
+    <string name="khangdinh">1.Affirmative Sentence: </string>
+    <string name="phudinh">2.Negative Sentence: </string>
+    <string name="nghivan">3.Interrogative Sentence: </string>
+    <string name="cachdung">4.Use: </string>
+    <string name="chuy">5.Note: </string>
+    <string name="action_search" />
+    <string name="gioithieu">The application is developed for the community who love and enjoy English!</string>
+    <string name="ketthuc">" Developed by:  <b> Nguyễn Thị Thu Thủy </b> "</string>
+    <array name="main">
+        <item>Search</item>
+        <item>Test</item>
+        <item>Note</item>
+        <item>Grammar</item>
+        <item>History</item>
+        <item>Story</item>
+        <item>News</item>
+        <item>Setting</item>
+        <item>Introduce</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

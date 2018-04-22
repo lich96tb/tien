@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.binhn.englishverstion1">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/english2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/english"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Note.edtNote"
+            android:parentActivityName=".Note.Main_Note" />
+        <activity
+            android:name=".Note.Main_Note"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme1"></activity>
+        <activity
+            android:name=".Question.main_question"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".lichSuTest.lich_su_hien"
+            android:parentActivityName=".lichSuTest.lichSu_Test"/>
+        <activity
+            android:name=".TraTu.Search_tran"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".NguPhap.Main_NguPhap"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".lichSuTest.lichSu_Test"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TraTu.Tra_Tu"/>
+        <activity
+            android:name=".NguPhap.ViewNguPhap"
+            android:parentActivityName=".NguPhap.Main_NguPhap" />
+        <activity
+            android:name=".Setting"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Story.Main_Story"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Story.View_Story"
+            android:parentActivityName=".Story.Main_Story" />
+        <activity
+            android:name=".Tintuc.Main_News"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Tintuc.News"
+            android:parentActivityName=".Tintuc.Main_News"/>
+        <activity
+            android:name=".GioiThieu"
+            android:parentActivityName=".MainActivity"/>
+
+    </application>
+
+</manifest>

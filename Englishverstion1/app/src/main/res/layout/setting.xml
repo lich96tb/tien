@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5pt">
+    <Button
+        android:id="@+id/btxoatratu"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xoalichsutratu"
+        android:textAllCaps="false"
+        android:background="#ffffff"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5pt">
+    <Button
+        android:id="@+id/btxoaTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/xoalichsubaikiemtra"
+        android:background="#ffffff"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageVietNam"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="129dp"
+            android:layout_marginRight="129dp"
+            app:srcCompat="@drawable/vietnam" />
+
+        <ImageView
+            android:id="@+id/imageAnh"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/imageVietNam"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/imageVietNam"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            app:srcCompat="@drawable/anh" />
+    </RelativeLayout>
+
+
+</LinearLayout>
