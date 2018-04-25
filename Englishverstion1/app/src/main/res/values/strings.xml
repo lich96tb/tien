@@ -5,7 +5,7 @@
     <string name="kiemtra">Test</string>
     <string name="ghichu">Note</string>
     <string name="nguphap">Grammar</string>
-    <string name="lichsu">History</string>
+    <string name="lichsu">History of Tests</string>
     <string name="truyen">Story</string>
     <string name="tintuc">News</string>
     <string name="caidat">Setting</string>
@@ -44,7 +44,7 @@
         <item>Test</item>
         <item>Note</item>
         <item>Grammar</item>
-        <item>History</item>
+        <item>History of tests</item>
         <item>Story</item>
         <item>News</item>
         <item>Setting</item>

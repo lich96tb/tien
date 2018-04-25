@@ -6,7 +6,7 @@
     <string name="kiemtra">Kiểm Tra</string>
     <string name="ghichu">Ghi Chú</string>
     <string name="nguphap">Ngữ Pháp</string>
-    <string name="lichsu">Lịch Sử</string>
+    <string name="lichsu">Lịch Sử Kiểm Tra</string>
     <string name="truyen">Truyện</string>
     <string name="tintuc">Tin Tức</string>
     <string name="caidat">Cài Đặt</string>
@@ -44,7 +44,7 @@
         <item>Kiểm tra</item>
         <item>Ghi chú</item>
         <item>Ngữ pháp</item>
-        <item>Lịch sử</item>
+        <item>Lịch sử kiểm tra</item>
         <item>Truyện</item>
         <item>Tin tức</item>
         <item>Cài đặt</item>

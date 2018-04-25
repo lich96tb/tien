@@ -65,7 +65,7 @@ public class lich_su_Apdater extends ArrayAdapter {
         }
         holder.tvTme.setText(lichsu.getTimeThi());
         holder.tvNgay.setText(lichsu.getNgay());
-        holder.tvDiem.setText(String.valueOf(lichsu.getDiem()) + "/10");
+        holder.tvDiem.setText(String.valueOf(lichsu.getDiem()) + "/20");
         return convertView;
     }
     public void remove(LichSu lichSu) {

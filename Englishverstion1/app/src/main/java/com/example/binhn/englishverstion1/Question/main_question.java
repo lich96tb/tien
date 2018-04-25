@@ -157,7 +157,7 @@ public class main_question extends AppCompatActivity {
         }
         AlertDialog.Builder dialog = new AlertDialog.Builder(main_question.this);
         dialog.setTitle(R.string.ketqua);
-        dialog.setMessage(getResources().getString(R.string.diem)+ d + "/10" + "\n" + getResources().getString(R.string.thoigian) + time.getText());
+        dialog.setMessage(getResources().getString(R.string.diem)+ d + "/20" + "\n" + getResources().getString(R.string.thoigian) + time.getText());
         dialog.setPositiveButton(R.string.xemlai, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -213,7 +213,7 @@ public class main_question extends AppCompatActivity {
     public ArrayList RanRom() {
         int iNew = 0;
         int dem = db.GetCount("SELECT * FROM Question");
-        for (int i = 0; i < 10; ) {
+        for (int i = 0; i < 20; ) {
             iNew = rd.nextInt(dem);
             if (!ID.contains(iNew) || iNew == 0) {
                 i++;
@@ -249,13 +249,13 @@ public class main_question extends AppCompatActivity {
         Date date = new Date();
         String strDateFormat = "dd/MM/yyyy";
         String strDateFormat24 = "HH:mm:ss a";
-        SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);//láy ra ngày
+        SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);//lấy ra ngày
         SimpleDateFormat sdft = new SimpleDateFormat(strDateFormat24);//lấy ra giờ
         time = sdf.format(date) + "   " + sdft.format(date);
         return time;
     }
 
-    //để sét mầy cho đáp án đúng vè ddaps án sai
+    //để sét màu cho đáp án đúng và đáp án sai
     public void setMau() {
         lv.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
@@ -276,7 +276,7 @@ public class main_question extends AppCompatActivity {
                     RadioGroup rg = (RadioGroup) v.findViewById(R.id.radioGroup);
                     int Check = rg.getCheckedRadioButtonId();
                     switch (Check) {
-                        //sét mầu đáp án đã tích
+                        //sét màu đáp án đã tích
                         case R.id.Radiobt_A:
                             rA.setTextColor(getResources().getColor(R.color.colorSelect));
                             break;
@@ -309,7 +309,7 @@ public class main_question extends AppCompatActivity {
         });
     }
 
-    //set mầy đáp án đúng
+    //set màu đáp án đúng
     public void setDung(int i) {
         switch (i) {
             case 1:
